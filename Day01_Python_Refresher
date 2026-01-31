@@ -28,6 +28,8 @@ Methods used :- count(), index().
 Methods used :- Keys(), value(), items(), get(), update(), pop(), popitem(), clear()
 4. Set - It is unordered, mutable collection of only unique elements. Ex:- S = {1,2,3,4} 
 Methods used :- add(), update(), remove(), discard(), union(), intersection(), difference(), symmetric_difference().
+5. List comprehension - It is a concise way to create new lists by applying an expression to each item in an existing iterable.
+Syntax:- [expression for item in iterable if condition]
 
 Functions - Block of statements that perform a specific task. we need functions when we do same task multiple times.
 Arguments - The values you pass to a function when calling it.
