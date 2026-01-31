@@ -1,0 +1,36 @@
+PYTHON - Developed by Guido Van Rossum. It is high level language and case sensitive.
+
+Variables - It is a name given to a memory location in a program.
+Keywords - they are reserved words in python.
+Data-Types - Integer(int) , Float , Double , String(str)
+Type casting - change the data tyes of a variable. Ex : a = 10 , B = str(a) it gives B = "10"
+
+Types of Operator :- Operators are the sybmol that performs a certain operations between operands.
+1. Arithmetic Operators ("+","-","/","*","%","**")
+2. Relational/Comparision Operators ("==","!=",">","<",">=","<=")
+3. Assignment Operators ("=","+=","-=","*=","/=","%=","**=")
+4. Logical Operators ("and","or","not")
+
+Control Flow :-
+1. if / elif / else - It is used when we have a choise between different conditions either this or that. Example, classiciation of students by grading system.
+2. for loops - It is used for sequential traversal. For traversing list , string , tuple ,etc.
+3. While loop - it is used when the number of iteration is unknown and depend on a condition.
+4. Break - It is used to terminate the loop when encountered .
+5. Continue(skip) - It terminates the execution in the current iteration and continue the execution of the loop with the net iteration. 
+6. Pass - It is a null statement that does nothing. It is used as a placeholder for future code.
+
+Data Structures :-
+1. List - It is an ordered , mutable(changeable) collection that allows duplicate elements.Ex:- [1,2,3,3]
+Methods used :- append(),extend(),instert(),remove(),pop(),clear(),sort(),reverse(),count(),index().
+2. Tuple - It is an ordered , Immutable collection that allows duplicates.Ex:- (1,2,4,5,4)
+Methods used :- count(), index().
+3. Dictionary :- It is unordered(in older version), mutable collection of key-value pairs. Keys must be unique and immutable and ordered since python3.7+ 
+Methods used :- Keys(), value(), items(), get(), update(), pop(), popitem(), clear()
+4. Set - It is unordered, mutable collection of only unique elements. Ex:- S = {1,2,3,4} 
+Methods used :- add(), update(), remove(), discard(), union(), intersection(), difference(), symmetric_difference().
+
+Functions - Block of statements that perform a specific task. we need functions when we do same task multiple times.
+Arguments - The values you pass to a function when calling it.
+Lambda function - A lambda function is a small, anonymous function defined without a name.Ex :- a = lambda x:x**2 
+Recursion - When a function calls itself repeadtly.
+
